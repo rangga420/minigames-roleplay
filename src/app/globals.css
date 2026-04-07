@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes osu-approach {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.666667);
+  }
+}
+
+.osu-approach {
+  animation: osu-approach 1s linear forwards;
+  transform-origin: center;
+}
